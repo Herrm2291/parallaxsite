@@ -2,7 +2,7 @@ body, html {
   height: 100%;
   margin: 0;
   font-size: 16px;
-  font-family: "Lato", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   line-height: 1.8em;
   color: #666;
@@ -22,25 +22,25 @@ body, html {
 }
 
 .pimg1 {
-  background-image: url('../img/tattoo_girl.jpg');
+  background-image: url('../img/morris.jpg');
   min-height: 100%;
-  font-family: "Special Elite", sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 .pimg2 {
-  background-image: url('../img/tattoo_guy.jpg');
+  background-image: url('../img/back.jpg');
   min-height: 400px;
 }
 
 .pimg3 {
-  background-image: url('../img/tattoo_fingers.jpg');
+  background-image: url('../img/skull.jpg');
   min-height: 400px;
 }
 
 .pimg4 {
-  background-image: url('../img/tattoo_machine.jpg');
+  background-image: url('../img/got.jpg');
   min-height: 100%;
-  font-family: "Special Elite", sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 .section {
@@ -70,7 +70,7 @@ body, html {
 }
 
 .ptext .border {
-  background-color: #6d2a38;
+  background-color: #000000;
   opacity: 0.80;
   border-radius: 20px;
   color: #fff;
@@ -82,7 +82,16 @@ body, html {
 }
 
 @media (max-width: 568px) {
-  .pimg1, .pimg2, .pimg3, .pimg4 {
+	.pimg1 {
+		background-image: url('../img/morris_small.jpg');
+    max-width: 568px; 
+	}
+
+	.pimg4 {
+    max-width: 568px;
+	}
+
+	.pimg1, .pimg2, .pimg3, .pimg4 {
     background-attachment: scroll;
   }
 }
