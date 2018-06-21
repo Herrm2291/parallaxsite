@@ -43,6 +43,11 @@ body, html {
   font-family: "Oswald", sans-serif;
 }
 
+.instagram {
+	width: 40px;
+	height: 40px;
+}
+
 .section {
   text-align: center;
   padding: 50px 80px;
